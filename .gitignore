@@ -1,0 +1,26 @@
+# --- Security & Secrets (CRITICAL) ---
+# Never commit these!
+*.pem
+*.ppk
+*accessKeys.csv
+credentials.csv
+
+# --- Virtual Environment ---
+sp500env/
+venv/
+env/
+
+# --- Data Files ---
+# Don't clutter git with large data dumps
+*.csv
+*.xlsx
+*.json
+
+# --- Python & Jupyter Cache ---
+.ipynb_checkpoints
+.cache_ggshield
+__pycache__/
+*.pyc
+
+# --- Personal Tracking ---
+project_tracking.todo
