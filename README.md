@@ -101,5 +101,3 @@ API_KEY=your_api_key
 3. Toggle the DAG to "On" to run on the defined schedule, or trigger it manually using the "Play" button.
 4. Monitor the "Graph View" to ensure all tasks (Extract -> Transform -> Load_S3 -> Load_Snowflake) complete successfully.
 5. Verify the data availability in your Snowflake table.
-
-```
